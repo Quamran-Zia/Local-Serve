@@ -1,0 +1,23 @@
+/* stats.css - Summary boxes on the My Requests page */
+.stats-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+.stat-box {
+  flex: 1;
+  background: white;
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.stat-number {
+  font-size: 26px;
+  font-weight: bold;
+  color: #007bff;
+  margin-top: 5px;
+}

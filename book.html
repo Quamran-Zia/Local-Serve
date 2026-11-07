@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Local Service Marketplace</title>
+  <link rel="stylesheet" href="base.css">
+  <link rel="stylesheet" href="header.css">
+  <link rel="stylesheet" href="components.css">
+  <link rel="stylesheet" href="cards.css">
+  <link rel="stylesheet" href="forms.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>Local<span>Serve</span></h1>
+    <nav>
+      <a href="book.html" class="active">Book Service</a>
+      <a href="requests.html">My Requests</a>
+      <a href="index.html">About</a>
+    </nav>
+    <span class="contact">Contact Us</span>
+  </header>
+
+  <!-- Categories -->
+  <section class="container">
+    <h2>Categories</h2>
+    <div class="category-links">
+      <a href="#electrician">Electricians</a>
+      <a href="#plumber">Plumbers</a>
+      <a href="#cleaner">Cleaners</a>
+      <a href="#tutor">Tutors</a>
+    </div>
+
+    <!-- Provider Cards -->
+    <h2>Available Providers</h2>
+    <div class="card-grid">
+      <!-- Electricians -->
+      <div class="card" id="electrician">
+        <h3>Electrician</h3>
+        <p class="provider-name">Rajesh Kumar</p>
+        <p class="status available">Available Today</p>
+        <p>Expert in wiring, switch repairs, and light installations.</p>
+        <p class="price">Rate: ₹350/hr | Rating: 4.8 <span class="star">★</span></p>
+        <a href="#booking-box" class="btn">Book Now</a>
+      </div>
+      <div class="card">
+        <h3>Electrician</h3>
+        <p class="provider-name">Amit Sharma</p>
+        <p class="status available">Available Today</p>
+        <p>Fan repair, inverter setup, and emergency repair.</p>
+        <p class="price">Rate: ₹300/hr | Rating: 4.7 <span class="star">★</span></p>
+        <a href="#booking-box" class="btn">Book Now</a>
+      </div>
+      <div class="card">
+        <h3>Electrician</h3>
+        <p class="provider-name">Vikas Patel</p>
+        <p class="status busy">Busy Today</p>
+        <p>Commercial wiring and MCB replacement specialist.</p>
+        <p class="price">Rate: ₹400/hr | Rating: 4.9 <span class="star">★</span></p>
+        <a href="#booking-box" class="btn">Book Now</a>
+      </div>
+      <!-- Plumbers -->
+      <div class="card" id="plumber">
+        <h3>Plumber</h3>
+        <p class="provider-name">Sunil Mehra</p>
+        <p class="status available">Available Today</p>
+        <p>Leak fixing, pipe installations, and tap repair.</p>
+        <p class="price">Rate: ₹300/hr | Rating: 4.6 <span class="star">★</span></p>
+        <a href="#booking-box" class="btn">Book Now</a>
+      </div>
+      <div class="card">
+        <h3>Plumber</h3>
+        <p class="provider-name">Deepak Yadav</p>
+        <p class="status available">Available Today</p>
+        <p>Water tank cleaning and drainage problem solving.</p>
+        <p class="price">Rate: ₹350/hr | Rating: 4.8 <span class="star">★</span></p>
+        <a href="#booking-box" class="btn">Book Now</a>
+      </div>
+      <div class="card">
+        <h3>Plumber</h3>
+        <p class="provider-name">Ramesh Ansari</p>
+        <p class="status busy">Busy Today</p>
+        <p>Bathroom sanitary fittings and geyser pipe setup.</p>
+        <p class="price">Rate: ₹280/hr | Rating: 4.4 <span class="star">★</span></p>
+        <a href="#booking-box" class="btn">Book Now</a>
+      </div>
+      <!-- Cleaners -->
+      <div class="card" id="cleaner">
+        <h3>Cleaner</h3>
+        <p class="provider-name">Anita Das</p>
+        <p class="status available">Available Today</p>
+        <p>Full house deep cleaning and kitchen sanitization.</p>
+        <p class="price">Rate: ₹499/visit | Rating: 4.9 <span class="star">★</span></p>
+        <a href="#booking-box" class="btn">Book Now</a>
+      </div>
+      <div class="card">
+        <h3>Cleaner</h3>
+        <p class="provider-name">Pooja Salve</p>
+        <p class="status available">Available Today</p>
+        <p>Bathroom tile scrubbing, window wiping, and dusting.</p>
+        <p class="price">Rate: ₹399/visit | Rating: 4.7 <span class="star">★</span></p>
+        <a href="#booking-box" class="btn">Book Now</a>
+      </div>
+      <div class="card">
+        <h3>Cleaner</h3>
+        <p class="provider-name">Rakesh Jadhav</p>
+        <p class="status busy">Busy Today</p>
+        <p>Sofa shampooing and carpet vacuum extraction.</p>
+        <p class="price">Rate: ₹650/visit | Rating: 4.8 <span class="star">★</span></p>
+        <a href="#booking-box" class="btn">Book Now</a>
+      </div>
+      <!-- Tutors -->
+      <div class="card" id="tutor">
+        <h3>Tutor</h3>
+        <p class="provider-name">Vikram Sen</p>
+        <p class="status available">Available Today</p>
+        <p>Teaches class 9-12 Mathematics and board exam prep.</p>
+        <p class="price">Rate: ₹550/hr | Rating: 5.0 <span class="star">★</span></p>
+        <a href="#booking-box" class="btn">Book Now</a>
+      </div>
+      <div class="card">
+        <h3>Tutor</h3>
+        <p class="provider-name">Sneha Mukherjee</p>
+        <p class="status available">Available Today</p>
+        <p>Physics and Chemistry mentor for high school.</p>
+        <p class="price">Rate: ₹500/hr | Rating: 4.8 <span class="star">★</span></p>
+        <a href="#booking-box" class="btn">Book Now</a>
+      </div>
+      <div class="card">
+        <h3>Tutor</h3>
+        <p class="provider-name">Naveen Gupta</p>
+        <p class="status busy">Busy Today</p>
+        <p>Computer science basics, C++, and Python tutoring.</p>
+        <p class="price">Rate: ₹600/hr | Rating: 4.9 <span class="star">★</span></p>
+        <a href="#booking-box" class="btn">Book Now</a>
+      </div>
+    </div>
+
+    <!-- Booking Form Section -->
+    <div class="booking-section" id="booking-box">
+      <h2>Book a Service</h2>
+      <form action="requests.html">
+        <label>Provider:</label>
+        <select required>
+          <option value="">Select Provider</option>
+          <optgroup label="Electricians">
+            <option>Rajesh Kumar</option>
+            <option>Amit Sharma</option>
+            <option>Vikas Patel</option>
+          </optgroup>
+          <optgroup label="Plumbers">
+            <option>Sunil Mehra</option>
+            <option>Deepak Yadav</option>
+            <option>Ramesh Ansari</option>
+          </optgroup>
+          <optgroup label="Cleaners">
+            <option>Anita Das</option>
+            <option>Pooja Salve</option>
+            <option>Rakesh Jadhav</option>
+          </optgroup>
+          <optgroup label="Tutors">
+            <option>Vikram Sen</option>
+            <option>Sneha Mukherjee</option>
+            <option>Naveen Gupta</option>
+          </optgroup>
+        </select>
+        <label>Preferred Date:</label>
+        <input type="date" required>
+        <label>Time Slot:</label>
+        <select>
+          <option>Morning (9 AM - 12 PM)</option>
+          <option>Afternoon (1 PM - 4 PM)</option>
+          <option>Evening (5 PM - 8 PM)</option>
+        </select>
+        <label>Address & Problem:</label>
+        <textarea rows="3" placeholder="Enter your address and details..." required></textarea>
+        <button type="submit" class="btn">Submit Request</button>
+      </form>
+    </div>
+  </section>
+</body>
+</html>
